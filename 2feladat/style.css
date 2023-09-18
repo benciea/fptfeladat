@@ -1,0 +1,46 @@
+.container {
+    width: 800px;
+    height: 300px;
+    display: flex;
+    background-color: yellow;
+    justify-content: center;
+    align-items: center;
+}
+
+.green, .yellow, .purple, .purple2, .purple3, .purple4 {
+    height: 100px;
+    width: 100px;
+}
+
+.green, .yellow {
+    display: none;
+}
+
+.purple, .purple2, .purple3, .purple4 {
+    background-color: purple;
+}
+    
+.container2, .container3, .container4 {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    background-color: yellow;
+}
+
+.container2 {
+    align-items: center;
+}
+
+.container3 {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.purple2, .purple3, .purple4 {
+    margin-right: 5px;
+}
+
+.container4 {
+    align-items: flex-end;
+    justify-content: flex-end;
+}
